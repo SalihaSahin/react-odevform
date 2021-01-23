@@ -110,7 +110,7 @@ function FormTable() {
           <Form.Control as="textarea" rows={3} ref={messageInput} />
         </Form.Group>
 
-        <Button variant={id > -1 ? "success" : "primary"} type="submit">
+        <Button variant={id > -1 ? "success" : "info"} type="submit">
           {id > -1 ? "Edit" : "Submit"}
         </Button>
       </Form>
